@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Site developed by Daydream Development LLC
+      jrobertson.dev / @daydreamjesse -->
+<html>
+  <head>
+    <title>TIP.COOL</title>
+		<meta charset="utf-8" />
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="TIP.COOL | A simple, responsive tip calculator. Because it's cool to tip." />
+    <meta name="author" content="Jesse Robertson" />
+    <meta name="keywords" content="tip calculator, tip calculator google, tip calculator pizza delivery, how much to tip, tip calculator app, tip calculator for delivery, simple tip calculator, tipping calculator, tip calculators, tip calc, tip, gratuity calculator, calculate tip" />
+    <meta property="og:title" content="TIP.COOL">
+    <meta property="og:image" content="image/dollar.png">
+    <meta property="og:description" content="A simple, responsive tip calculator. Because it's cool to tip.">
+    <link rel="icon" href="image/dollar.png" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="bg">
+    <header class="bg">
+      <div class="copy">
+        <p> Made by @<a href="https://www.twitter.com/daydreamjesse" target="_blank">DaydreamJesse</a></p>
+      </div>
+      <div class="bg">
+        <h1>TIP.COOL</h1>
+      </div>
+    </header>
+    <div class="bg">
+      <div class="container" id="mainpage">
+        <p>A simple, responsive tip calculator.</p>
+        <p>Because it's cool to tip.</p>
+        <!-- Bill -->
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon">Bill: $</span>
+          <input id="bill" type="number" class="form-control" placeholder="20.00">
+        </div><br>
+        <!-- Tip -->
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon">Tip: %</span>
+          <input id="percentage" type="number" class="form-control" placeholder="15">
+        </div><br>
+        <!-- Calc button -->
+        <button id="calculateTotal" type="submit" class="btn-primary btn-lg" onclick="addDiv()">Calculate</button>
+    </div>
+    <!-- js files, jQuery and Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

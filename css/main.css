@@ -1,0 +1,69 @@
+/* Dosis */
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+@keyframes calc {
+  0% {font-size: 0%}
+  75% {font-size: 275%}
+  100% {font-size: 250%}
+}
+
+@keyframes drop {
+  0% {transform: translateY(0%);}
+  100% {transform: translateY(325%);}
+}
+
+.copy {
+  padding-top: 5px;
+  font-size: 50%;
+  opacity: .7;
+  color: #eef4f8;
+} .copy a {
+  color: #ce3f3f;
+}
+
+.animation1 {
+  font-size: 0%;
+  padding: 15px;
+  animation-duration:0.3s;
+  animation-name: calc;
+  animation-fill-mode: forwards;
+}
+
+.animation2 {
+  font-size: 250%;
+  padding: 15px;
+  animation-name: drop;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
+
+#mainpage {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+body, h1, h2, h3, h4, p {
+  font-family: "Dosis", sans-serif;
+  color: #eef4f8;
+  text-align: center;
+} p {
+  font-size: 125%;
+}
+
+.bg {
+  background-color: #202a38;
+}
+
+/* Button Styling */
+.btn-primary, .input-group-addon {
+  background-color: #ce3f3f;
+  border-color: #992727;
+  color: #eef4f8;
+} .btn-primary:hover {
+  background-color: #992727;
+  border-color: #ce3f3f;
+} .btn-primary:active, .btn-primary:active:hover, .btn-primary:focus {
+  background-color: #992727;
+  border-color: #ce3f3f;
+}
